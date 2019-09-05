@@ -1,0 +1,10 @@
+a,b,c=input().split()
+a=int(a)
+b=int(b)
+c=int(c)
+a,b,c=sorted([a,b,c])
+r=abs(a**2+b**2-c**2)
+if(r<0.1):
+    print("yes")
+else:
+    print("no")
