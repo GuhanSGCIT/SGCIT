@@ -1,13 +1,9 @@
 n,k = input().split()
 n = int(n)
 k = int(k)
-l=input()
-lst=l.split()
+lst=[int(y) for y in input().split()]
+print(lst)
 for i in lst:
-    if(k==i):
-        m=1
+    if(i==k):
+        print("Yes")
         break
-if(m==1):
-    print("yes")
-else:
-    print("no")
